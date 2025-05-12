@@ -5,7 +5,11 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{A5696B84-9E9E-415E-A5C4-E8999B641C1D}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,17 @@ Global
 		{A5696B84-9E9E-415E-A5C4-E8999B641C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5696B84-9E9E-415E-A5C4-E8999B641C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5696B84-9E9E-415E-A5C4-E8999B641C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

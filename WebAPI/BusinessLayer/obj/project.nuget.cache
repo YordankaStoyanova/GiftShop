@@ -1,8 +1,18 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "dJOk/jtEIkI=",
   "success": true,
   "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "tpYe60I5aWo=",
+  "success": true,
+  "projectFilePath": "/Users/marie/ProjectsW/Разработка на софтуер/GiftShop/WebAPI/BusinessLayer/BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/marie/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "/Users/marie/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
+  ],
+>>>>>>> Stashed changes
   "logs": []
 }

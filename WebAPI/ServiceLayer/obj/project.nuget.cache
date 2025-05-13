@@ -1,45 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "yjBGTz1OSLmL+fZGColImko/COWoN4zHFQu0hf0nmozFKL8c5Rcavzi8ViLZjoeA83dP54Q6cxkeQ5fYbFHKVA==",
+  "dgSpecHash": "dsHoATDuEOIPiiE42xXJAfaCGeFnJl+JApP8m1w2E/e5Kpc6zwuS5XdiRc60LPOqq4zxbq0pCWMQa71jjyIPUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [],
-  "logs": []
-=======
-<<<<<<< Updated upstream
-  "dgSpecHash": "tcKxhgo5TwE=",
-  "success": true,
-  "projectFilePath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\marie\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\marie\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
-    "C:\\Users\\marie\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "C:\\Users\\marie\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "C:\\Users\\marie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\marie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
-=======
->>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
-  "dgSpecHash": "UiUqModqd0w=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hpnew\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\hpnew\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
-    "C:\\Users\\hpnew\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "C:\\Users\\hpnew\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "C:\\Users\\hpnew\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\hpnew\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
-  ],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
->>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
 }

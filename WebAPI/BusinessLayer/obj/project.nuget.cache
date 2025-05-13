@@ -1,31 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "jIiHY55zqwUWd1hG8ulo4QX3mNibD8OlnFunF0PG4j1MpFPUCNPEnbbvzGSWtRjbKB0UhipxN6nTUHoYOaRfHw==",
+  "dgSpecHash": "txKmXB4P4z46c+JVPf9tWNsEXZtMAJQVWK62TJGMSwx/pKddS7snRGbcuXBWWp/+8/+/jaQYGZZokgR+hg7Sxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
-=======
-<<<<<<< Updated upstream
-  "dgSpecHash": "tgJW3V2O4mk=",
-=======
->>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
-  "dgSpecHash": "dJOk/jtEIkI=",
-  "success": true,
-<<<<<<< HEAD
-  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
-=======
-  "projectFilePath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
->>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
->>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

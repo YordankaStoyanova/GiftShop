@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\",
+  "WorkspaceRootPath": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\servicelayer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\servicelayer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\servicelayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\servicelayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -44,24 +44,23 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Product.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
               "RelativeToolTip": "BusinessLayer\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:13:04.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:13:04.145Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
               "RelativeToolTip": "BusinessLayer\\Order.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T06:07:47.137Z",
               "EditorCaption": ""
@@ -70,22 +69,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\User.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeToolTip": "BusinessLayer\\User.cs",
               "ViewState": "AgIAAA0AAAAAAgAAAAAAwBAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:07:26.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:07:26.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceLayer\\appsettings.json",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeToolTip": "ServiceLayer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -95,9 +93,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeToolTip": "ServiceLayer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,6 +1,28 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+=======
+<<<<<<< Updated upstream
+    "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {}
+  },
+  "projects": {
+    "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+=======
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
     "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {}
   },
   "projects": {
@@ -9,15 +31,30 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
+<<<<<<< HEAD
         "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\hpnew\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+=======
+        "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\hpnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,13 +75,21 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
+        }
+=======
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
         },
+<<<<<<< HEAD
         "SdkAnalysisLevel": "9.0.200"
+=======
+        "SdkAnalysisLevel": "9.0.100"
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
       },
       "frameworks": {
         "net8.0": {
@@ -60,6 +105,13 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {
+=======
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -70,19 +122,42 @@
       }
     },
     "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj": {
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
+<<<<<<< HEAD
+        "projectPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
+=======
         "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
         "packagesPath": "C:\\Users\\hpnew\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\hpnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< HEAD
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< Updated upstream
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\hpnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +172,18 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
                 "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
+=======
+<<<<<<< HEAD
+              "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
+=======
+              "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
               }
             }
           }
@@ -107,23 +192,25 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
+        }
+=======
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
         },
+<<<<<<< HEAD
         "SdkAnalysisLevel": "9.0.200"
+=======
+        "SdkAnalysisLevel": "9.0.100"
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -135,6 +222,9 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -144,6 +234,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
+>>>>>>> f3e9bddfcef8baa68963cba1f7ac07a28507a32c
         }
       }
     }

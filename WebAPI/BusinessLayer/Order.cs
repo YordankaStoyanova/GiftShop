@@ -14,6 +14,7 @@ namespace BusinessLayer
         public int Id { get; set; }
         [Required]
         [MaxLength(100,ErrorMessage ="Addres must not be more than 100 symbols!")]
+        [MinLength(2,ErrorMessage ="Addres must be at least 20 symbols!")]
         public string Address { get; set; }
         [Required]
         [RegularExpression(@"(?:\+359\s?|0)\d\d\s?\d{3}\s?\d{3,4}", ErrorMessage = "Please, enter valid number!")]

@@ -73,7 +73,6 @@ WebAPI/.vs
 .vscode
 /WebAPI/.vs
 /WebAPI/.vs/ProjectEvaluation
-/WebAPI
 WebAPI/.vs/ProjectEvaluation/servicelayer.projects.v5.2
 *.2
 *.json

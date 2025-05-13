@@ -1,8 +1,29 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jIiHY55zqwUWd1hG8ulo4QX3mNibD8OlnFunF0PG4j1MpFPUCNPEnbbvzGSWtRjbKB0UhipxN6nTUHoYOaRfHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+=======
+<<<<<<< Updated upstream
+  "dgSpecHash": "tgJW3V2O4mk=",
+=======
+  "dgSpecHash": "dJOk/jtEIkI=",
+>>>>>>> Stashed changes
+  "success": true,
+  "projectFilePath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+<<<<<<< Updated upstream
+      "message": "Problem reading the cache file Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "Problem reading the cache file C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> Stashed changes
+    }
+  ]
 }

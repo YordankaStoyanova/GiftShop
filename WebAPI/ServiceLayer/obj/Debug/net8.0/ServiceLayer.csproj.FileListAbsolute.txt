@@ -45,3 +45,14 @@ C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\We
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.MvcApplicationPartsAssemblyInfo.cs
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.MvcApplicationPartsAssemblyInfo.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.sourcelink.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb

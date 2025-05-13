@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
@@ -12,12 +13,43 @@
         "projectPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\maria\\Desktop\\C#-MG\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+=======
+<<<<<<< Updated upstream
+    "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {}
+=======
+    "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {}
+>>>>>>> Stashed changes
+  },
+  "projects": {
+    "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+<<<<<<< Updated upstream
+        "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+=======
+        "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\hpnew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\obj\\",
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+<<<<<<< Updated upstream
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\hpnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,7 +70,17 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         }
+=======
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
       },
       "frameworks": {
         "net8.0": {
@@ -54,7 +96,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+=======
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+<<<<<<< Updated upstream
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
+>>>>>>> a2681413789cdb92e2d045f9974e3d33d8406a4e
         }
       }
     }

@@ -16,23 +16,23 @@ namespace DataLayer
             dbContext = context;
         }
 
-        public void Create(User item)
+        public async Task Create(User item)
         {
             dbContext.Users.Add(item);
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
         }
 
-        public User Read(int key, bool useNavigationalProperties = false, bool isReadOnly = false)
+        public async Task<User> Read(int key, bool useNavigationalProperties = false, bool isReadOnly = false)
         {
             IQueryable<User> query = dbContext.Users;
             if (useNavigationalProperties) query = query.Include(q => q.Orders);
             if (isReadOnly) query = query.AsNoTrackingWithIdentityResolution();
-            User user = query.FirstOrDefault(x => x.Id == key);
+            User user = await query.FirstOrDefaultAsync(x => x.Id == key);
             if (user is null) throw new KeyNotFoundException();
             return user;
         }
 
-        public List<User> ReadAll(bool useNavigationalProperties = false, bool isReadOnly = false)
+        public async Task<List<User>> ReadAll(bool useNavigationalProperties = false, bool isReadOnly = false)
         {
             IQueryable<User> query = dbContext.Users;
 
@@ -49,9 +49,9 @@ namespace DataLayer
             return query.ToList();
         }
 
-        public void Update(User item, bool useNavigationalProperties = false)
+        public async Task Update(User item, bool useNavigationalProperties = false)
         {
-            User user = Read(item.Id, useNavigationalProperties);
+            User user = await Read(item.Id, useNavigationalProperties);
             dbContext.Entry(user).CurrentValues.SetValues(item);
             if (useNavigationalProperties)
             {
@@ -59,20 +59,20 @@ namespace DataLayer
                 List<Order> orders = new List<Order>();
                 foreach (var ord in item.Orders)
                 {
-                    Order order = dbContext.Orders.FirstOrDefault(x => x.Id == ord.Id);
+                    Order order = await dbContext.Orders.FirstOrDefaultAsync(x => x.Id == ord.Id);
                     if (order == null) orders.Add(ord);
                     else orders.Add(order);
                 }
                 user.Orders = item.Orders;
             }
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
         }
 
-        public void Delete(int key)
+        public async Task Delete(int key)
         {
-            User user = Read(key);
+            User user = await Read(key);
             dbContext.Users.Remove(user);
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
         }
     }
 }

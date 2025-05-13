@@ -71,3 +71,6 @@ WebAPI/.vs/ServiceLayer/FileContentIndex/e480931b-f18d-46f1-b26f-72b4345d1fac.vs
 *.vsidx
 WebAPI/.vs
 .vscode
+/WebAPI/.vs
+/WebAPI/.vs/ProjectEvaluation
+/WebAPI

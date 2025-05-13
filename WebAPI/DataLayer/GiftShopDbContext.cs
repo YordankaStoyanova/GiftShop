@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer
 {
-    internal class GiftShopDbContext:DbContext
+    public class GiftShopDbContext:DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
@@ -23,6 +23,18 @@ namespace DataLayer
             if(!optionsBuilder.IsConfigured) optionsBuilder.UseSqlite("Data Source=gift_shop.db3");
             base.OnConfiguring(optionsBuilder);
         }
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>(u =>
+            {
+                u.HasIndex(u => u.Email);
+                u.HasMany(u => u.Orders)
+                .WithOne(o => o.User);
+            });
+            modelBuilder.Entity<Order>()
+                .HasOne(u => u.User)
+                .WithMany(u => u.Orders);
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

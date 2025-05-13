@@ -123,6 +123,8 @@ namespace DataLayer.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email");
+
                     b.ToTable("Users");
                 });
 

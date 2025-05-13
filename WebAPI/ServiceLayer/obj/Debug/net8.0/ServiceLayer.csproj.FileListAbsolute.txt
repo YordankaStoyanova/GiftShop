@@ -37,3 +37,41 @@ C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\We
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.genruntimeconfig.cache
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
 C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\appsettings.Development.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\appsettings.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.staticwebassets.endpoints.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.exe
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.runtimeconfig.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\BusinessLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\bin\Debug\net8.0\BusinessLayer.pdb
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.AssemblyReference.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfoInputs.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.AssemblyInfo.cs
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.csproj.CoreCompileInputs.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.MvcApplicationPartsAssemblyInfo.cs
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.MvcApplicationPartsAssemblyInfo.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.sourcelink.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\scopedcss\bundle\ServiceLayer.styles.css
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets.build.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets.development.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.ServiceLayer.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.ServiceLayer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.build.ServiceLayer.props
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServiceLayer.props
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServiceLayer.props
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ServiceLayer.genruntimeconfig.cache
+Z:\ProjectsW\Разработка на софтуер\GiftShop\WebAPI\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll

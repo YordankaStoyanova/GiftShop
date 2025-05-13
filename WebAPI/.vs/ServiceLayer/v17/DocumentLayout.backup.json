@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\datalayer\\datalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\UserContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\UserContext.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\UserContext.cs*",
+              "RelativeToolTip": "DataLayer\\UserContext.cs*",
+              "ViewState": "AgIAAAcAAAAANDMzMzMLwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:53:31.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IDb.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
               "RelativeDocumentMoniker": "DataLayer\\IDb.cs",
               "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
               "RelativeToolTip": "DataLayer\\IDb.cs",
-              "ViewState": "AgIAAAQAAADA/////38ZwAoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAADA/////38ZwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T08:30:08.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "20250513082259_InitialCreate.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
               "RelativeDocumentMoniker": "DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:22:59.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T08:22:59.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Feedback.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Feedback.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Feedback.cs",
@@ -100,19 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "GiftShopDbContext.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\GiftShopDbContext.cs",
-              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
-              "RelativeToolTip": "DataLayer\\GiftShopDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs*",
+              "RelativeToolTip": "DataLayer\\GiftShopDbContext.cs*",
+              "ViewState": "AgIAABEAAAAAmpmZmZkcwCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:44:24.535Z"
+              "WhenOpened": "2025-05-13T06:44:24.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DataLayer.csproj",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\DataLayer\\DataLayer.csproj",
               "RelativeDocumentMoniker": "DataLayer\\DataLayer.csproj",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Product.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Order.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
@@ -148,19 +165,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\User.cs",
               "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeToolTip": "BusinessLayer\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAABgMzMzM/MhwB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:40:22.355Z"
+              "WhenOpened": "2025-05-13T06:40:22.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceLayer\\appsettings.json",
@@ -172,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
@@ -184,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",

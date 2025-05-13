@@ -1,18 +1,15 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "dJOk/jtEIkI=",
+  "dgSpecHash": "tgJW3V2O4mk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [],
-=======
-  "dgSpecHash": "tpYe60I5aWo=",
-  "success": true,
-  "projectFilePath": "/Users/marie/ProjectsW/Разработка на софтуер/GiftShop/WebAPI/BusinessLayer/BusinessLayer.csproj",
-  "expectedPackageFiles": [
-    "/Users/marie/.nuget/packages/microsoft.netcore.app.ref/8.0.15/microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
-    "/Users/marie/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.15/microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512"
-  ],
->>>>>>> Stashed changes
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

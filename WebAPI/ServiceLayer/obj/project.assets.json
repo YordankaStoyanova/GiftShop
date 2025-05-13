@@ -463,32 +463,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/marie/.nuget/packages/": {}
+    "C:\\Users\\marie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marie/ProjectsW/Разработка на софтуер/GiftShop/WebAPI/ServiceLayer/ServiceLayer.csproj",
+      "projectUniqueName": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "/Users/marie/ProjectsW/Разработка на софтуер/GiftShop/WebAPI/ServiceLayer/ServiceLayer.csproj",
-      "packagesPath": "/Users/marie/.nuget/packages/",
-      "outputPath": "/Users/marie/ProjectsW/Разработка на софтуер/GiftShop/WebAPI/ServiceLayer/obj/",
+      "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+      "outputPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/marie/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
+            "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }
@@ -501,9 +508,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -525,20 +532,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -547,8 +540,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

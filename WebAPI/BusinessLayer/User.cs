@@ -13,15 +13,18 @@ namespace BusinessLayer
         public int Id { get; set; }
 
         [Required]
+        [MinLength(2, ErrorMessage = "Name must be at least 2 symbols!")]
         [MaxLength(50, ErrorMessage = "Name must not be more than 50 symbols!")]
         public string Name { get; set; }
 
         [Required]
+        [MinLength(20, ErrorMessage = "Address must be at least 20 symbols!")]
         [MaxLength(50, ErrorMessage = "Address must not be more than 50 symbols!")]
         public string Address { get; set; }
 
         [Required]
-        [MaxLength(100, ErrorMessage = "Password must not be more than 100 symbols!")]
+        [MinLength(8, ErrorMessage = "Password must be at least 8 symbols!")]
+        [MaxLength(20, ErrorMessage = "Password must not be more than 20 symbols!")]
         public string Password { get; set; }
 
         [Required]

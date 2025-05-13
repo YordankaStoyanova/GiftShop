@@ -74,3 +74,10 @@ WebAPI/.vs
 /WebAPI/.vs
 /WebAPI/.vs/ProjectEvaluation
 /WebAPI
+WebAPI/.vs/ProjectEvaluation/servicelayer.projects.v5.2
+*.2
+*.json
+WebAPI/.vs/ServiceLayer/v17/DocumentLayout.json
+WebAPI/.vs/ServiceLayer/v17/DocumentLayout.backup.json
+WebAPI/.vs/ProjectEvaluation/servicelayer.projects.v5.2
+WebAPI/.vs/ServiceLayer/v17/.suo

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,6 +50,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Product.cs",
@@ -51,10 +60,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T06:13:04.145Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
+              "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeToolTip": "BusinessLayer\\Order.cs",
+              "ViewState": "AgIAABYAAAAAZGZmZmb6vwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:07:43.26Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "Order.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
@@ -68,18 +90,29 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+=======
+>>>>>>> Stashed changes
               "Title": "User.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\User.cs",
               "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
               "RelativeToolTip": "BusinessLayer\\User.cs",
-              "ViewState": "AgIAAA0AAAAAAgAAAAAAwBAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAABcZmZmZuYwwBkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-05-13T06:07:26.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+              "WhenOpened": "2025-05-12T07:36:44.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceLayer\\appsettings.json",
@@ -87,11 +120,19 @@
               "RelativeToolTip": "ServiceLayer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-05-13T06:07:26.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "WhenOpened": "2025-05-12T07:35:56.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
@@ -99,11 +140,19 @@
               "RelativeToolTip": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2025-05-13T06:07:26.759Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "WhenOpened": "2025-05-12T07:35:56.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",

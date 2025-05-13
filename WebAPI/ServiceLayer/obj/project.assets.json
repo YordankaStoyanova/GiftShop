@@ -463,37 +463,24 @@
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
-    "C:\\Users\\User\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\marie\\.nuget\\packages\\": {},
+    "C:\\Users\\hpnew\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
-=======
-      "projectUniqueName": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
-      "projectName": "ServiceLayer",
-      "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
-      "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
-      "outputPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
->>>>>>> Stashed changes
+      "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\hpnew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-<<<<<<< Updated upstream
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hpnew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -507,13 +494,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-<<<<<<< Updated upstream
-            "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
-=======
-            "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
->>>>>>> Stashed changes
+            "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }
@@ -522,17 +504,13 @@
         "warnAsError": [
           "NU1605"
         ]
-<<<<<<< Updated upstream
-      }
-=======
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
->>>>>>> Stashed changes
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -554,9 +532,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-<<<<<<< Updated upstream
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-=======
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -565,21 +540,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-<<<<<<< Updated upstream
-      "message": "Problem reading the cache file C:\\Users\\User\\Documents\\GitHub\\GiftShop\\WebAPI\\ServiceLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file Z:\\ProjectsW\\Разработка на софтуер\\GiftShop\\WebAPI\\ServiceLayer\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> Stashed changes
-    }
-  ]
+  }
 }

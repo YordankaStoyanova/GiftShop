@@ -81,3 +81,11 @@ WebAPI/.vs/ServiceLayer/v17/DocumentLayout.json
 WebAPI/.vs/ServiceLayer/v17/DocumentLayout.backup.json
 WebAPI/.vs/ProjectEvaluation/servicelayer.projects.v5.2
 WebAPI/.vs/ServiceLayer/v17/.suo
+WebAPI/BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json
+WebAPI/BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json
+WebAPI/BusinessLayer/obj/BusinessLayer.csproj.nuget.g.props
+WebAPI/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs
+WebAPI/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache
+WebAPI/BusinessLayer/obj/Debug/net8.0/BusinessLayer.assets.cache
+WebAPI/BusinessLayer/obj/Debug/net8.0/BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+WebAPI/ServiceLayer/obj/project.nuget.cache

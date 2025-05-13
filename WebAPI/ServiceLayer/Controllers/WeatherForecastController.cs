@@ -29,10 +29,5 @@ namespace ServiceLayer.Controllers
             })
             .ToArray();
         }
-        [HttpPost]// ??????? ????? ?? ?????? ???? ????
-        public IActionResult actionResult([FromBody] User )//w body js 
-        {
-            return Ok();
-        }
     }
 }

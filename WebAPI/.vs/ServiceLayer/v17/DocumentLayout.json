@@ -3,8 +3,17 @@
   "WorkspaceRootPath": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}|BusinessLayer\\BusinessLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{745C9B36-8E13-4B97-8FC6-107BA27FF3D1}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|z:\\projectsw\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\giftshop\\webapi\\servicelayer\\servicelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -36,7 +45,11 @@
         {
           "DockedWidth": 200,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "SelectedChildIndex": 3,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
 =======
           "SelectedChildIndex": 1,
 >>>>>>> Stashed changes
@@ -48,7 +61,24 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeToolTip": "BusinessLayer\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:37:20.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceLayer\\appsettings.json",
@@ -69,6 +99,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "ServiceLayer.csproj",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\ServiceLayer.csproj",
@@ -109,15 +140,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:51:18.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",
               "ToolTip": "Z:\\ProjectsW\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0443\u0435\u0440\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeToolTip": "ServiceLayer\\Program.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAABEAAABgZmZmZiYgwAwAAAA0AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:49:39.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T11:49:39.538Z"
             }
           ]
         }

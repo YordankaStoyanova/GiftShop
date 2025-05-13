@@ -69,3 +69,4 @@ node_modules/
 .dataconnect
 WebAPI/.vs/ServiceLayer/FileContentIndex/e480931b-f18d-46f1-b26f-72b4345d1fac.vsidx
 *.vsidx
+.vs

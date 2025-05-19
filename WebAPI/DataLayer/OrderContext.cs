@@ -75,7 +75,8 @@ namespace DataLayer
                 List<Product> products = new List<Product>(item.Products.Count);
                 for (int i = 0; i < item.Products.Count; ++i)
                 {
-                    Product productFromDb = dbContext.Products.Find(item.Products[i].Id);
+                   
+                    Product productFromDb = await dbContext.Products.FirstOrDefaultAsync(p => p.Id == item.Products[i].Id);
                     if (productFromDb != null) products.Add(productFromDb);
                     else products.Add(item.Products[i]);
                 }

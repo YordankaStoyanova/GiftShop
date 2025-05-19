@@ -19,9 +19,9 @@ namespace BusinessLayer
         [Required]
         [RegularExpression(@"(?:\+359\s?|0)\d\d\s?\d{3}\s?\d{3,4}", ErrorMessage = "Please, enter valid number!")]
         public string PhoneNumber { get; set; }
-        
+        [Required]
         public User User{ get; set; }
-
+        [Required]
         public List<Product> Products { get; set; }
 
         [Range(0, 10_000, ErrorMessage = "Price must be in (0;10_000]")]
@@ -31,13 +31,13 @@ namespace BusinessLayer
         {
 
         }
-        public Order(string address, string phoneNumber,User user, decimal price)
+        public Order(string address, string phoneNumber,User user, decimal price,List<Product> products)
         {
             Address = address;
             PhoneNumber = phoneNumber;
             User = user;
             Price = price;
-            Products = new List<Product>();
+            Products = products;
         }
     }
 }

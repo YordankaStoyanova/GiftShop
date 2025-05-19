@@ -35,12 +35,12 @@ namespace BusinessLayer
 
         public List<Order> Orders { get; set; }
 
-        public User()
+        private User()
         {
 
         }
 
-        private User(string name, string address, string password, string email)
+        public User(string name, string address, string password, string email)
         {
             Name = name;
             Address = address;

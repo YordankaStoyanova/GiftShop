@@ -10,10 +10,10 @@ namespace DataLayer
 {
     public class GiftShopDbContext:DbContext
     {
-        internal DbSet<User> Users { get; set; }
-        internal DbSet<Product> Products { get; set; }
-        internal DbSet<Order> Orders { get; set; }
-        internal DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Feedback> Feedbacks { get; set; }
 
 
         public GiftShopDbContext() : base() { }

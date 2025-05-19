@@ -3,44 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC12C17E-A21A-413A-B118-60FFC6AD02C1}|TestLayer\\TestLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\testlayer\\ordercontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC12C17E-A21A-413A-B118-60FFC6AD02C1}|TestLayer\\TestLayer.csproj|solutionrelative:testlayer\\ordercontexttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\ordercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\migrations\\20250513082259_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\migrations\\20250513082259_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\giftshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC12C17E-A21A-413A-B118-60FFC6AD02C1}|TestLayer\\TestLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\testlayer\\testmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC12C17E-A21A-413A-B118-60FFC6AD02C1}|TestLayer\\TestLayer.csproj|solutionrelative:testlayer\\testmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\businesslayer\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35451815-DFF1-4DA2-9CF4-DE4672B835A3}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\idb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5696B84-9E9E-415E-A5C4-E8999B641C1D}|ServiceLayer\\ServiceLayer.csproj|c:\\users\\hpnew\\desktop\\school\\programming\\codes\\software development\\giftshop\\webapi\\servicelayer\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,90 +77,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAACAWAAAAAAAAAAAuwC0WAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-19T06:04:01.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderContextTest.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\TestLayer\\OrderContextTest.cs",
+              "RelativeDocumentMoniker": "TestLayer\\OrderContextTest.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\TestLayer\\OrderContextTest.cs",
+              "RelativeToolTip": "TestLayer\\OrderContextTest.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv3IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:09:54.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestManager.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\TestLayer\\TestManager.cs",
+              "RelativeDocumentMoniker": "TestLayer\\TestManager.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\TestLayer\\TestManager.cs",
+              "RelativeToolTip": "TestLayer\\TestManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:08:18.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GiftShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\GiftShopDbContext.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
+              "RelativeToolTip": "DataLayer\\GiftShopDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:20:56.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\User.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
+              "RelativeToolTip": "BusinessLayer\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:20:56.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
+              "RelativeToolTip": "BusinessLayer\\Order.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:20:56.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OrderContext.cs",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\OrderContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\OrderContext.cs",
               "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\OrderContext.cs",
               "RelativeToolTip": "DataLayer\\OrderContext.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDEAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T14:27:02.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\ProductContext.cs",
-              "RelativeDocumentMoniker": "DataLayer\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\ProductContext.cs",
-              "RelativeToolTip": "DataLayer\\ProductContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:23:38.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\UserContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\UserContext.cs",
               "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\UserContext.cs",
               "RelativeToolTip": "DataLayer\\UserContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T14:20:56.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDb.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
-              "RelativeDocumentMoniker": "DataLayer\\IDb.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
-              "RelativeToolTip": "DataLayer\\IDb.cs",
-              "ViewState": "AgIAAAQAAADA/////38ZwAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250513082259_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
-              "RelativeToolTip": "DataLayer\\Migrations\\20250513082259_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Feedback.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Feedback.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Feedback.cs",
-              "RelativeToolTip": "BusinessLayer\\Feedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GiftShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
-              "RelativeDocumentMoniker": "DataLayer\\GiftShopDbContext.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\GiftShopDbContext.cs",
-              "RelativeToolTip": "DataLayer\\GiftShopDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.21Z",
               "EditorCaption": ""
             },
             {
@@ -171,31 +194,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Order.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Order.cs",
-              "RelativeToolTip": "BusinessLayer\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Feedback.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Feedback.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\Feedback.cs",
+              "RelativeToolTip": "BusinessLayer\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.28Z"
+              "WhenOpened": "2025-05-13T14:20:56.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\User.cs",
-              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\BusinessLayer\\User.cs",
-              "RelativeToolTip": "BusinessLayer\\User.cs",
-              "ViewState": "AgIAABsAAACAmZmZmdk6wB0AAAASAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IDb.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
+              "RelativeDocumentMoniker": "DataLayer\\IDb.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\IDb.cs",
+              "RelativeToolTip": "DataLayer\\IDb.cs",
+              "ViewState": "AgIAAAQAAADA/////38ZwAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.282Z"
+              "WhenOpened": "2025-05-13T14:20:56.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\ProductContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\ProductContext.cs",
+              "ToolTip": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\DataLayer\\ProductContext.cs",
+              "RelativeToolTip": "DataLayer\\ProductContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:23:38.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceLayer\\appsettings.json",
@@ -203,11 +241,12 @@
               "RelativeToolTip": "ServiceLayer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T14:20:56.284Z"
+              "WhenOpened": "2025-05-13T14:20:56.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
@@ -215,11 +254,12 @@
               "RelativeToolTip": "ServiceLayer\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.286Z"
+              "WhenOpened": "2025-05-13T14:20:56.286Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\ServiceLayer\\Program.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Program.cs",
@@ -227,7 +267,8 @@
               "RelativeToolTip": "ServiceLayer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:20:56.288Z"
+              "WhenOpened": "2025-05-13T14:20:56.288Z",
+              "EditorCaption": ""
             }
           ]
         }

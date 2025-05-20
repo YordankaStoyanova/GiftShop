@@ -13,6 +13,12 @@ namespace BusinessLayer
         [Key]
         public int Id { get; set; }
 
+
+        [Required]
+        [MaxLength(50, ErrorMessage = "Name must not be more than 50 symbols!")]
+        [MinLength(2, ErrorMessage = "Name must be at least 2 symbols!")]
+        public string Name{ get; set; }
+
         [Required]
         [MaxLength(50, ErrorMessage = "Brand must not be more than 50 symbols!")]
         [MinLength(2, ErrorMessage = "Brand must be at least 2 symbols!")]
@@ -31,8 +37,9 @@ namespace BusinessLayer
 
         }
 
-        public Product(string brand, decimal price, int quantity)
+        public Product(string name,string brand, decimal price, int quantity)
         {
+            Name = name;
             Brand = brand;
             Price = price;
             Quantity = quantity;

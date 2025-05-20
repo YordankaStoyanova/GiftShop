@@ -28,11 +28,6 @@ namespace TestLayer
         {
             dbContext.Dispose();
         }
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
 
     }
 }

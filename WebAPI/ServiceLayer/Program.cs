@@ -23,8 +23,6 @@ namespace ServiceLayer
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
 

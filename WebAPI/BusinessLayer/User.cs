@@ -17,7 +17,6 @@ namespace BusinessLayer
         [MaxLength(50, ErrorMessage = "Name must not be more than 50 symbols!")]
         public string Name { get; set; }
 
-        [Required]
         [MinLength(20, ErrorMessage = "Address must be at least 20 symbols!")]
         [MaxLength(50, ErrorMessage = "Address must not be more than 50 symbols!")]
         public string Address { get; set; }
@@ -40,14 +39,12 @@ namespace BusinessLayer
 
         }
 
-        public User(string name, string address, string password, string email)
+        public User(string name, string password, string email)
         {
             Name = name;
-            Address = address;
             Password = password;
             Email = email;
             Orders = new List<Order>();
         }
-        
     }
 }

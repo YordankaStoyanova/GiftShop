@@ -20,7 +20,7 @@ namespace DataLayer
         public GiftShopDbContext(DbContextOptions optionsBuilder) : base(optionsBuilder) { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(!optionsBuilder.IsConfigured) optionsBuilder.UseSqlite("Data Source=gift_shop.db3");
+            if(!optionsBuilder.IsConfigured) optionsBuilder.UseSqlite("Data Source=gift_shopdb.db3");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

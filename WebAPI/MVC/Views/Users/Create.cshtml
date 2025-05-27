@@ -1,0 +1,161 @@
+﻿@model BusinessLayer.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="section">
+	<div class="container">
+		<div class="row full-height justify-content-center">
+			<div class="col-12 text-center align-self-center py-5">
+				<div class="section pb-5 pt-5 pt-sm-2 text-center">
+					<h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+					<input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+					<label for="reg-log"></label>
+					<div class="card-3d-wrap mx-auto">
+						<div class="card-3d-wrapper">
+							<div class="card-front">
+								<div class="center-wrap">
+									<div class="section text-center">
+										<h4 class="mb-4 pb-3">Log In</h4>
+										<div class="form-group">
+											<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+											<i class="input-icon uil uil-at"></i>
+										</div>
+										<div class="form-group mt-2">
+											<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+											<i class="input-icon uil uil-lock-alt"></i>
+										</div>
+										<a href="javascript:void(0)" data-sign="login" class="btn mt-4">subm1it</a>
+										<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="card-back">
+								<div class="center-wrap">
+									<div class="section text-center">
+										<h4 class="mb-4 pb-3">Sign Up</h4>
+										<div class="form-group">
+											<input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="regname" autocomplete="off">
+											<i class="input-icon uil uil-user"></i>
+										</div>
+										<div class="form-group mt-2">
+											<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="regemail" autocomplete="off">
+											<i class="input-icon uil uil-at"></i>
+										</div>
+										<div class="form-group mt-2">
+											<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="regpass" autocomplete="off">
+											<i class="input-icon uil uil-lock-alt"></i>
+										</div>
+										<a href="javascript:void(0)" data-sign="register" class="btn mt-4">submit</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+
+	<script>
+		document.querySelectorAll("a.btn").forEach(el=>{
+			console.log("selector")
+			console.log(el)
+
+			if(el.getAttribute('data-sign') == 'login'){
+			console.log("login")
+
+				el.addEventListener('click', async ()=>{
+			console.log("el1")
+
+		const logemail = document.getElementById("logemail").value;
+		const logpass = document.getElementById("logpass").value;
+		const res = await fetch("Create",{
+				method: "POST",
+				headers:{
+					'Content-Type': 'application/json',
+				},
+				body:JSON.stringify({
+					type:true,
+					email: logemail,
+					password: logpass,
+				})
+			})
+				console.log(res);
+
+				})
+			}
+			else{
+				console.log("sign")
+				el.addEventListener('click',async ()=>{
+			console.log("el2")
+
+		const regemail = document.getElementById("regemail").value;
+		alert(regemail);
+		const regpassword = document.getElementById("regpass").value;
+		alert(regpassword);
+		const regusername = document.getElementById("regname").value;
+		alert(regusername);
+		console.log("before res");
+		alert("before res");
+			const res =  await fetch("Create",{
+				method: "POST",
+				headers:{
+					'Content-Type': 'application/json',
+				},
+				body:JSON.stringify({
+					type:false,
+					email: regemail,
+					password: regpassword,
+					username: regusername
+				})
+			})
+							alert(res);
+
+			});
+
+		}});
+	</script>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

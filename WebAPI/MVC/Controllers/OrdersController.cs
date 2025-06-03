@@ -7,16 +7,23 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BusinessLayer;
 using DataLayer;
+using Newtonsoft.Json;
+using NuGet.Protocol;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace MVC.Controllers
 {
     public class OrdersController : Controller
     {
         private readonly IDb<Order,int> _context;
-
-        public OrdersController(OrderContext context)
+        private readonly IdentityContext _authentication;
+        
+        public OrdersController(OrderContext context, IdentityContext identity)
         {
             _context = context;
+            _authentication = identity;
         }
 
         // GET: Orders
@@ -47,19 +54,47 @@ namespace MVC.Controllers
         {
             return View();
         }
-
         // POST: Orders/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Address,PhoneNumber,Price")] Order order)
+        public async Task<IActionResult> Create(IFormCollection keyValuePairs)
+        {
+            try
+            {
+                var json = keyValuePairs["productsString"];
+                TempData["products"] =  json;
+                return RedirectToAction(nameof(Checkout));
+            }
+            catch (Exception ex)
+            {
+                return View();
+            }
+        }
+        public IActionResult Checkout()
+        {
+            try
+            {
+                var products = JsonConvert.DeserializeObject<List<Product>>((TempData["products"]as string[])[0]);
+                return View(new Order() { Products = products});
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction(nameof(Create));
+            }
+        }
+        [HttpPost]
+        //[Authorize(Roles = "User")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Checkout([Bind("Id,Address,PhoneNumber,Products")] Order order)
         {
             if (ModelState.IsValid)
             {
-                 await _context.Create(order);
-              
-                return RedirectToAction(nameof(Index));
+                order.User = await _authentication.ReadUserAsync(User.Identity.GetUserId<string>());
+                await _context.Create(order);
+                HttpContext.Session.Remove("basket");
+                return RedirectToAction(nameof(Index),nameof(HomeController));
             }
             return View(order);
         }

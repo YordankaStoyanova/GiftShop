@@ -25,7 +25,7 @@ namespace TestLayer
           
                 List<Product> products = new List<Product>() {
             new Product("Mouse","Apple", 25,3)};
-                User user = new User("Ivan Ivanov", "Plovdiv,bul.Bulgaria 131", "1234567*", "ivanivanov1@gmail.com");
+                User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
                 Order order = new Order("Plovdiv, bul.Bulgaria 131", "0888888875", user, 75, products);
                 int ordersBefore = TestManager.dbContext.Orders.Count();
 
@@ -43,7 +43,7 @@ namespace TestLayer
             {
                 List<Product> products = new List<Product>() {
             new Product("Mouse", "Apple", 25,3)};
-                User user = new User("Ivan Ivanov", "Sofia,bul.Bulgaria 131", "1234567*", "ivanivanov1@gmail.com");
+                User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
                 Order newOrder = new Order("Sofia, bul.Bulgaria 131", "0888888875", user, 75,products);
                 await orderContext.Create(newOrder);
 
@@ -67,7 +67,7 @@ namespace TestLayer
         {
             List<Product> products = new List<Product>() {
             new Product("Mouse", "Apple", 25,3)};
-            User user = new User("Ivan Ivanov", "Sofia,bul.Bulgaria 131", "1234567*", "ivanivanov1@gmail.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Order newOrder = new("Varna, bul.Bulgaria 131", "0888888875", user, 75, products);
                  await orderContext.Create(newOrder);
 
@@ -85,7 +85,7 @@ namespace TestLayer
             {
             List<Product> products = new List<Product>() {
             new Product("Mouse", "Apple", 25,3)};
-            User user = new User("Ivan Ivanov", "Sofia,bul.Bulgaria 131", "1234567*", "ivanivanov1@gmail.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Order newOrder = new Order("Varna, bul.Bulgaria 131", "0888888875", user, 75, products);
                 await orderContext.Create(newOrder);
 

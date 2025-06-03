@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataLayer
 {
-    public class UserContext : IDb<User, int>
+    public class UserContext : IDb<User, string>
     {
         private readonly GiftShopDbContext dbContext;
         public UserContext(GiftShopDbContext context)
@@ -22,7 +22,7 @@ namespace DataLayer
             await dbContext.SaveChangesAsync();
         }
 
-        public async Task<User> Read(int key, bool useNavigationalProperties = false, bool isReadOnly = false)
+        public async Task<User> Read(string key, bool useNavigationalProperties = false, bool isReadOnly = false)
         {
             IQueryable<User> query = dbContext.Users;
             if (useNavigationalProperties) query = query.Include(q => q.Orders);
@@ -68,7 +68,7 @@ namespace DataLayer
             await dbContext.SaveChangesAsync();
         }
 
-        public async Task Delete(int key)
+        public async Task Delete(string key)
         {
             User user = await Read(key);
             dbContext.Users.Remove(user);

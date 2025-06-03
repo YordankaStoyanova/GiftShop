@@ -11,7 +11,6 @@ namespace BusinessLayer
     {
         [Key]
         public int Id { get; set; }
-        [Required]
         public User User { get; set; }
 
         [Required]
@@ -23,7 +22,7 @@ namespace BusinessLayer
         [MinLength(2, ErrorMessage = "Review must be at least 2 symbols!")]
         public string Review { get; set; }
 
-        private Feedback()
+        public Feedback()
         {
 
         }
@@ -34,6 +33,11 @@ namespace BusinessLayer
             Rating = rating;
             Review = review;
 
+        }
+        public Feedback(int rating, string review)
+        {
+            Rating = rating;
+            Review = review;
         }
     }
 }

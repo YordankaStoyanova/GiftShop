@@ -1,53 +1,64 @@
 ﻿@model IEnumerable<BusinessLayer.Product>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Shop";
 }
 
-<h1>Index</h1>
+<!-- shop section -->
+<section class="shop_section layout_padding">
+    <div class="container">
+        <div class="row">
+            @{
+                int counter = 0;
+            }
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="javascript:void(0)" class="products" data-id="@item.Id">
+                            <div class="img-box">
+                                <img src="images/p@(counter + 1).png" alt="@item.Name">
+                            </div>
+                            <div class="detail-box">
+                                <h6>@item.Name</h6>
+                                <h6>Price <span>$@item.Price</span></h6>
+                            </div>
+                            @if (counter <= 6)
+                            {
+                                <div class="new"><span>New</span></div>
+                            }
+                        </a>
+                    </div>
+                </div>
+                counter++;
+            }
+        </div>
+    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Brand)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantity)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Brand)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <script>
+        document.querySelectorAll(".products").forEach(el => {
+            el.addEventListener("click", () => {
+                const basket = sessionStorage.getItem("basket");
+                const product_id = el.getAttribute("data-id");
+                if (basket) {
+                    const object = JSON.parse(basket);
+                    console.log(object);
+                    const productIndex = object.findIndex(p=>p.id == product_id);
+                    console.log(productIndex);
+                    if(productIndex == -1){
+                        object.push({id:product_id,quantity:1})
+                    }else{
+                        console.log(object[productIndex])
+                        object[productIndex].quantity +=1;
+                    }
+                    console.log(object)
+                    sessionStorage.setItem("basket", JSON.stringify(object) );
+                } else {
+                    sessionStorage.setItem("basket", JSON.stringify([{id:product_id,quantity:1}]));
+                }
+                console.log(basket);
+            });
+        });
+    </script>
+</section>
+<!-- end shop section -->

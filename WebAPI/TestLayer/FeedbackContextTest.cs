@@ -21,7 +21,7 @@ namespace TestLayer
         [Test]
         public async Task CreateFeedback()
         {
-            User user = new User("Ivan Ivanov", "Plovdiv, bul.Bulgaria 1", "secure123", "ivan@test.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Feedback feedback = new Feedback(user, 4, "Very good service!");
 
             int countBefore = TestManager.dbContext.Feedbacks.Count();
@@ -37,7 +37,7 @@ namespace TestLayer
         [Test]
         public async Task ReadFeedback()
         {
-            User user = new User("Maria Petrova", "Sofia, bul. Nicola Vapcarov", "pass456", "maria@test.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Feedback feedback = new Feedback(user, 5, "Amazing!");
 
             await feedbackContext.Create(feedback);
@@ -49,7 +49,7 @@ namespace TestLayer
         [Test]
         public async Task UpdateFeedback()
         {
-            User user = new User("Georgi Stoyanov", "Varna, ul. Slivnitsa", "pass789", "georgi@test.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Feedback feedback = new Feedback(user, 3, "Average experience.");
 
             await feedbackContext.Create(feedback);
@@ -66,7 +66,7 @@ namespace TestLayer
         [Test]
         public async Task DeleteFeedback()
         {
-            User user = new User("Tanya Georgieva", "Burgas, ul. Vitosha", "pass999", "tanya@test.com");
+            User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Feedback feedback = new Feedback(user, 2, "Needs improvement");
 
             await feedbackContext.Create(feedback);

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BusinessLayer;
 using DataLayer;
+using System.Text.Json.Serialization;
 
 namespace MVC.Controllers
 {
@@ -18,7 +19,27 @@ namespace MVC.Controllers
         {
             _context = context;
         }
+        [HttpPost]
+        public async Task<IActionResult> GetAllById([FromBody] int[] ids)
+        {
+            try
+            {
 
+                List<Product> products = await _context.ReadAll(false, true);
+                List<Product> result = new List<Product>();
+                for (int i = 0; i < ids.Length; ++i)
+                {
+                    Product product = products.FirstOrDefault(p => p.Id == ids[i]);
+                    if (product is not null) result.Add(product);
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+
+        }
         // GET: Products
         public async Task<IActionResult> Index()
         {

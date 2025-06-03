@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
+    [JsonSerializable(typeof(Product))]
     public class Product
     {
 
@@ -32,7 +34,7 @@ namespace BusinessLayer
         [Range(0, 100, ErrorMessage = "Quantity must be in (0;100]")]
         public int Quantity { get; set; }
 
-        private Product()
+        public Product()
         {
 
         }

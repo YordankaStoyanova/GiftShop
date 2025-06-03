@@ -1,42 +1,199 @@
-﻿@model BusinessLayer.Order
-
+﻿@using BusinessLayer
+@using Newtonsoft.Json
+@model BusinessLayer.Order
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Basket";
 }
 
-<h1>Create</h1>
+<section class="h-100 h-custom">
+    
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body p-4">
 
-<h4>Order</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Address" class="control-label"></label>
-                <input asp-for="Address" class="form-control" />
-                <span asp-validation-for="Address" class="text-danger"></span>
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <h5 class="mb-3">
+                                    <a href="#!" class="text-body">
+                                        <i class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping
+                                    </a>
+                                </h5>
+                                <hr>
+
+                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                    <div>
+                                        <p class="mb-1">Shopping cart</p>
+                                        <p class="mb-0">You have 4 items in your cart</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">
+                                            <span class="text-muted">Sort by:</span> <a href="#!"
+                                            class="text-body">price <i class="fas fa-angle-down mt-1"></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="container"></div>
+                                
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div>
+                                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img2.webp"
+                                                         class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5>Samsung galaxy Note 10 </h5>
+                                                    <p class="small mb-0">256GB, Navy Blue</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div style="width: 50px;">
+                                                    <h5 class="fw-normal mb-0">2</h5>
+                                                </div>
+                                                <div style="width: 80px;">
+                                                    <h5 class="mb-0">$900</h5>
+                                                </div>
+                                                <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div>
+                                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img3.webp"
+                                                         class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5>Canon EOS M50</h5>
+                                                    <p class="small mb-0">Onyx Black</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div style="width: 50px;">
+                                                    <h5 class="fw-normal mb-0">1</h5>
+                                                </div>
+                                                <div style="width: 80px;">
+                                                    <h5 class="mb-0">$1199</h5>
+                                                </div>
+                                                <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card mb-3 mb-lg-0">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div>
+                                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img4.webp"
+                                                         class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                                </div>
+                                                <div class="ms-3">
+                                                    <h5>MacBook Pro</h5>
+                                                    <p class="small mb-0">1TB, Graphite</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center">
+                                                <div style="width: 50px;">
+                                                    <h5 class="fw-normal mb-0">1</h5>
+                                                </div>
+                                                <div style="width: 80px;">
+                                                    <h5 class="mb-0">$1799</h5>
+                                                </div>
+                                                <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form asp-action="Create" id="form">
+                                <input hidden id="productsString" name="productsString" />
+                                </form>
+
+                                <button type="submit" id="submitButton" value="Create" data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-block btn-lg">
+                                    <div class="d-flex justify-content-between">
+                                        <span></span>
+                                        <span>Checkout <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+                                    </div>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="PhoneNumber" class="control-label"></label>
-                <input asp-for="PhoneNumber" class="form-control" />
-                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
-</div>
+    <script>
+        document.getElementById("submitButton").addEventListener("click",()=>{
+            document.getElementById("form").submit();
+        })
+        const model = (name,quantity,price)=>` <div class="card mb-3">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex flex-row align-items-center">
+                                                        <div>
+                                                            <img src="../../images/p1.png"
+                                                                 class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                                        </div>
+                                                        <div class="ms-3">
+                                                            <h5>${name}</h5>
+                                                            <p class="small mb-0">256GB, Navy Blue</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex flex-row align-items-center">
+                                                        <div style="width: 50px;">
+                                                            <h5 class="fw-normal mb-0">${quantity}</h5>
+                                                        </div>
+                                                        <div style="width: 80px;">
+                                                            <h5 class="mb-0">${price}</h5>
+                                                        </div>
+                                                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>`
+        const basket = sessionStorage.getItem("basket");
+        if(basket){
+            const object = JSON.parse(basket);
+            fetch("../Products/GetAllById",{
+                method:"Post",
+                headers:{
+                    'Content-Type': 'application/json'
+                },
+                body:JSON.stringify(object.map(r=>r.id))
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const stringObject = JSON.stringify(data);
+                document.getElementById("productsString").value = stringObject;
+                console.log(data);
+                for(let i = 0;i<data.length;++i){
+                    console.log(data[i]);
+                    document.getElementById("container").insertAdjacentHTML("beforeend", model(data[i].name,data[i].quantity,data[i].price));
+                }
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+            })
+            .catch(error => {
+                console.error("Fetch error:", error);
+            });
+        }
+
+    </script>
+</section>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

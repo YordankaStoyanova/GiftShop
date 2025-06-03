@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BusinessLayer
@@ -19,25 +20,21 @@ namespace BusinessLayer
         [Required]
         [RegularExpression(@"(?:\+359\s?|0)\d\d\s?\d{3}\s?\d{3,4}", ErrorMessage = "Please, enter valid number!")]
         public string PhoneNumber { get; set; }
-        [Required]
         public User User{ get; set; }
-        [Required]
         public List<Product> Products { get; set; }
+        public Status Status { get; set; }
 
-        [Range(0, 10_000, ErrorMessage = "Price must be in (0;10_000]")]
-        public decimal Price { get; set; }
 
-        private Order()
+        public Order()
         {
-
         }
-        public Order(string address, string phoneNumber,User user, decimal price,List<Product> products)
+        public Order(string address, string phoneNumber,User user,List<Product> products)
         {
             Address = address;
             PhoneNumber = phoneNumber;
             User = user;
-            Price = price;
             Products = products;
+            Status = Status.Confirmed;
         }
     }
 }

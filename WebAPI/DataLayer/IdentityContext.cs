@@ -77,11 +77,20 @@ namespace DataLayer
             }
         }
 
+        public async Task<Order> GetUserLastOrder(string userId)
+        {
+            User user = await _userManager.FindByIdAsync(userId);
+            return user == null ? null : user.Orders.Last();
+
+        }
+
         public async Task<User> ReadUserAsync(string key)
         {
             try
             {
-                return await _userManager.FindByIdAsync(key);
+                var query = _context.Users.Include(o => o.Orders);
+                var user = await query.FirstOrDefaultAsync(u=>u.Id==key);
+                return user;
             }
             catch (Exception)
             {

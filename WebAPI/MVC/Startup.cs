@@ -28,7 +28,6 @@ namespace MVC
             services.AddRazorPages();
             services.AddControllersWithViews();
             services.AddScoped<FeedbackContext>();
-            services.AddScoped<UserContext>();
             services.AddScoped<OrderContext>();
             services.AddScoped<ProductContext>();
             services.AddScoped<IdentityContext>();
@@ -38,7 +37,7 @@ namespace MVC
             //services.AddScoped(typeof(MVCDbContext));
 
             services.AddDbContext<GiftShopDbContext>(options =>
-                options.UseSqlite("Data Source=../DataLayer/gift_shop.db3"));
+                options.UseSqlite("Data Source=../DataLayer/gift_shop.db3").EnableSensitiveDataLogging());
 
             services.AddIdentity<User, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<GiftShopDbContext>()
@@ -46,7 +45,7 @@ namespace MVC
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.IdleTimeout = TimeSpan.FromMinutes(60);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
@@ -62,7 +61,7 @@ namespace MVC
                 options.Password.RequiredUniqueChars = 1;
 
                 // Lockout settings.
-                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(60);
                 options.Lockout.MaxFailedAccessAttempts = 3;
                 options.Lockout.AllowedForNewUsers = true;
 
@@ -78,7 +77,7 @@ namespace MVC
             {
                 // Cookie settings
                 options.Cookie.HttpOnly = true;
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
 
                 options.LoginPath = "/Identity/Account/Login";
                 options.AccessDeniedPath = "/Identity/Account/AccessDenied";

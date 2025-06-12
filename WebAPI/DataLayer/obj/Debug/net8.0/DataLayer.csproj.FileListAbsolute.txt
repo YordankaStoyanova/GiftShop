@@ -87,3 +87,21 @@ C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\DataLayer\obj\Debug\
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.pdb
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.genruntimeconfig.cache
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\DataLayer.deps.json
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\DataLayer.runtimeconfig.json
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\DataLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.AssemblyInfo.cs
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.sourcelink.json
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.csproj.Up2Date
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\refint\DataLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.pdb
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\DataLayer.genruntimeconfig.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\DataLayer\obj\Debug\net8.0\ref\DataLayer.dll

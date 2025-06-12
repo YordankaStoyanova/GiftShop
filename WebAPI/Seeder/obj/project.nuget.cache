@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BCfh5+ME9AM=",
+  "dgSpecHash": "rhBW0/tgp2E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpnew\\Downloads\\GiftShop-main\\GiftShop-main\\WebAPI\\Seeder\\Seeder.csproj",
+  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\Seeder\\Seeder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpnew\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.5\\microsoft.aspnetcore.cryptography.internal.9.0.5.nupkg.sha512",
     "C:\\Users\\hpnew\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.5\\microsoft.aspnetcore.cryptography.keyderivation.9.0.5.nupkg.sha512",

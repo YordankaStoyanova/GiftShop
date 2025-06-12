@@ -61,3 +61,16 @@ C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\BusinessLayer\obj\De
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
 C:\Users\hpnew\Downloads\GiftShop-main\GiftShop-main\WebAPI\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\hpnew\Desktop\School\Programming\Codes\Software Development\GiftShop\WebAPI\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

@@ -24,7 +24,7 @@ namespace TestLayer
         {
           
                 List<Product> products = new List<Product>() {
-            new Product("Mouse","Apple", 25,3)};
+            new Product("Mouse", 25, 3)};
                 User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
                 Order order = new Order("Ivan Ivanow","example@gmail.com","Plovdiv, bul.Bulgaria 131", "0888888875", user, products.Select(p=>new OrderedProduct() { Product = p,Quantity=10}).ToList(),PaymentMethod.CashOnDelivery,10);
                 int ordersBefore = TestManager.dbContext.Orders.Count();
@@ -42,7 +42,7 @@ namespace TestLayer
             public async Task ReadOrder()
             {
                 List<Product> products = new List<Product>() {
-            new Product("Mouse", "Apple", 25,3)};
+            new Product("Mouse", 25, 3)};
                 User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Order newOrder = new Order("Ivan Ivanow", "example@gmail.com", "Plovdiv, bul.Bulgaria 131", "0888888875", user, products.Select(p => new OrderedProduct() { Product = p, Quantity = 10 }).ToList(), PaymentMethod.CashOnDelivery, 10);
             await orderContext.Create(newOrder);
@@ -66,7 +66,7 @@ namespace TestLayer
             public async Task UpdateOrder()
         {
             List<Product> products = new List<Product>() {
-            new Product("Mouse", "Apple", 25,3)};
+            new Product("Mouse", 25, 3)};
             User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Order newOrder = new Order("Ivan Ivanow", "example@gmail.com", "Plovdiv, bul.Bulgaria 131", "0888888875", user, products.Select(p => new OrderedProduct() { Product = p, Quantity = 10 }).ToList(), PaymentMethod.CashOnDelivery, 10);
            
@@ -85,7 +85,7 @@ namespace TestLayer
             public async Task DeleteOrder()
             {
             List<Product> products = new List<Product>() {
-            new Product("Mouse", "Apple", 25,3)};
+            new Product("Mouse", 25, 3)};
             User user = new User("ivanivanov1@gmail.com","Ivan Ivanov");
             Order newOrder = new Order("Ivan Ivanow", "example@gmail.com", "Plovdiv, bul.Bulgaria 131", "0888888875", user, products.Select(p => new OrderedProduct() { Product = p, Quantity = 10 }).ToList(), PaymentMethod.CashOnDelivery, 10);
 

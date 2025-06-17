@@ -23,6 +23,9 @@ namespace DataLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("Rating")
                         .HasColumnType("INTEGER");
 
@@ -116,7 +119,7 @@ namespace DataLayer.Migrations
 
                     b.Property<string>("ImagePath")
                         .IsRequired()
-                        .HasMaxLength(80)
+                        .HasMaxLength(70)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -128,6 +131,9 @@ namespace DataLayer.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Status")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -339,7 +345,7 @@ namespace DataLayer.Migrations
             modelBuilder.Entity("BusinessLayer.Feedback", b =>
                 {
                     b.HasOne("BusinessLayer.User", "User")
-                        .WithMany()
+                        .WithMany("Feedbacks")
                         .HasForeignKey("UserId");
 
                     b.Navigation("User");
@@ -427,6 +433,8 @@ namespace DataLayer.Migrations
 
             modelBuilder.Entity("BusinessLayer.User", b =>
                 {
+                    b.Navigation("Feedbacks");
+
                     b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618

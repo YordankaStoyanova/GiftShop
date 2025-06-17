@@ -1,202 +1,144 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using System.Diagnostics.CodeAnalysis;
 using BusinessLayer;
 using DataLayer;
-using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace MVC.Controllers
+namespace MVC.Controllers;
+
+public class ProductsController : Controller
 {
-    public class ProductsController : Controller
+    private readonly IDb<Product, int> _context;
+
+    public ProductsController(ProductContext context)
     {
-        private readonly IDb<Product,int> _context;
+        _context = context;
+    }
 
-        public ProductsController(ProductContext context)
+    [HttpPost]
+    [AllowAnonymous]
+    public async Task<IActionResult> GetAllById([FromBody] [AllowNull] int[][] data)
+    {
+        try
         {
-            _context = context;
-        }
-        [AllowAnonymous]
-        [HttpGet]
-        public async Task<IActionResult> SaveImageFromUrlAsync(string imageUrl, string savePath)
-        {
-            using (HttpClient client = new HttpClient())
+            if (data != null && data.Length > 0 && data[0].Length > 0)
             {
-                var imageBytes = await client.GetByteArrayAsync("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F4723250.jpg&f=1&nofb=1&ipt=c1cb83e02191b405a83ebcaede079aadb125ed81f802ed98fd8c756a6d5fca9a");
-                return File(imageBytes, "image/jpeg");
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> GetAllById([FromBody] int[][] data)
-        {
-            try
-            {
-
-                List<Product> products = await _context.ReadAll(false, true);
-                List<OrderedProduct> result = new List<OrderedProduct>();
-                for (int i = 0; i < data[0].Length; ++i)
+                var products = (await _context.ReadAll(false, true)).Where(p => p.Status == ProductStatus.InStock)
+                    .ToList();
+                var result = new List<OrderedProduct>();
+                for (var i = 0; i < data[0].Length; ++i)
                 {
-                    Product product = products.FirstOrDefault(p => p.Id == data[0][i]);
-                    if (product is not null) result.Add(new OrderedProduct(data[1][i],product));
+                    var product = products.FirstOrDefault(p => p.Id == data[0][i]);
+                    if (product is not null) result.Add(new OrderedProduct(data[1][i], product));
                 }
+
                 return Ok(result);
             }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
 
+            return Ok(new List<OrderedProduct>());
         }
-        // GET: Products
-        public async Task<IActionResult> Index()
+        catch (Exception ex)
         {
-            return View(await _context.ReadAll());
+            return StatusCode(500, ex.Message);
         }
+    }
 
-        // GET: Products/Details/5
-        public async Task<IActionResult> Details(int? id)
+    // GET: Products
+    public async Task<IActionResult> Index()
+    {
+        return View((await _context.ReadAll()).Where(p => p.Status == ProductStatus.InStock).ToList());
+    }
+
+    // GET: Products/Create
+    [Authorize(Roles = "Administrator")]
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    // POST: Products/Create
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    [Authorize(Roles = "Administrator")]
+    public async Task<IActionResult> Create(
+        [Bind("Id,Name,Brand,Price,Quantity")] Product product,
+        IFormFile photo)
+    {
+        if (ModelState.IsValid)
         {
-            
-            if (id == null)
+            if (photo != null && photo.Length > 0)
             {
-                return NotFound();
-            }
+                var fileName = $"{product.Name}{Path.GetExtension(photo.FileName)}";
+                var filePath = Path.Combine("wwwroot/images", fileName);
 
-            var product = await _context.Read((int)id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }
-
-        // GET: Products/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(
-    [Bind("Id,Name,Brand,Price,Quantity")] Product product,
-    IFormFile photo)  // Parameter name matches the input name
-        {
-            if (ModelState.IsValid)
-            {
-                // Handle image upload
-                if (photo != null && photo.Length > 0)
+                using (var stream = System.IO.File.Create(filePath))
                 {
-                    // Create unique filename
-                    var fileName = $"{product.Name}{Path.GetExtension(photo.FileName)}";
-                    var filePath = Path.Combine("wwwroot/images", fileName);
-
-                    // Save file
-                    using (var stream = System.IO.File.Create(filePath))
-                    {
-                        await photo.CopyToAsync(stream);
-                    }
-
-                    // Store path in database
-                    product.ImagePath = $"/images/{fileName}";
+                    await photo.CopyToAsync(stream);
                 }
 
-                await _context.Create(product);
-                return RedirectToAction(nameof(Index));
+                product.ImagePath = $"/images/{fileName}";
+                product.Status = ProductStatus.InStock;
             }
 
-            return View(product);
-        }
-
-        // GET: Products/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Read((int)id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return View(product);
-        }
-
-        // POST: Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Brand,Price,Quantity")] Product product)
-        {
-            if (id != product.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    await _context.Update(product);
-                    
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    throw;
-                }
-                catch (ArgumentException)
-                {
-                    return NotFound();
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(product);
-        }
-
-        // GET: Products/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Read((int)id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }
-
-        // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var product = await _context.Read(id);
-            if (product != null)
-            {
-                 await _context.Delete(product.Id);
-            }
-
-           
+            await _context.Create(product);
             return RedirectToAction(nameof(Index));
         }
 
-       
+        return View(product);
+    }
+
+    // GET: Products/Edit/5
+    [Authorize(Roles = "Administrator")]
+    public async Task<IActionResult> Edit(int? id)
+    {
+        if (id == null) return NotFound();
+
+        var product = await _context.Read((int)id);
+        if (product == null) return NotFound();
+        return View(product);
+    }
+
+    // POST: Products/Edit/5
+    // To protect from overposting attacks, enable the specific properties you want to bind to.
+    // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    [Authorize(Roles = "Administrator")]
+    public async Task<IActionResult> Edit(
+        int id,
+        [Bind("Id,Name,Brand,Price,Quantity,ImagePath")]
+        Product product,
+        IFormFile photo)
+    {
+        if (id != product.Id) return NotFound();
+
+        if (ModelState.IsValid)
+        {
+            if (photo != null && photo.Length > 0)
+            {
+                if (!string.IsNullOrEmpty(product.ImagePath))
+                {
+                    var oldImagePath = Path.Combine("wwwroot", product.ImagePath.TrimStart('/'));
+                    if (System.IO.File.Exists(oldImagePath)) System.IO.File.Delete(oldImagePath);
+                }
+
+                var fileName = $"{product.Name}{Path.GetExtension(photo.FileName)}";
+                var filePath = Path.Combine("wwwroot/images", fileName);
+
+                using (var stream = System.IO.File.Create(filePath))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+
+                product.ImagePath = $"/images/{fileName}";
+            }
+
+            await _context.Update(product);
+            return RedirectToAction(nameof(Index));
+        }
+
+        return View(product);
     }
 }

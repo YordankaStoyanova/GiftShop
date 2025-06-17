@@ -1,8 +1,8 @@
+wwwroot\css\account.css
 wwwroot\css\bascket.css
 wwwroot\css\font-awesome.min.css
 wwwroot\css\products.css
 wwwroot\css\responsive.css
-wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\css\style.css.map
 wwwroot\fonts\fontawesome-webfont.ttf
@@ -10,6 +10,9 @@ wwwroot\fonts\fontawesome-webfont.woff
 wwwroot\fonts\fontawesome-webfont.woff2
 wwwroot\fonts\octin_sports_rg.ttf
 wwwroot\images\agency-img.jpg
+wwwroot\images\Bracelet.png
+wwwroot\images\Code.png
+wwwroot\images\Code2.png
 wwwroot\images\Console.png
 wwwroot\images\favicon.png
 wwwroot\images\free.svg
@@ -33,8 +36,8 @@ wwwroot\images\truck.svg
 wwwroot\js\bootstrap.js
 wwwroot\js\custom.js
 wwwroot\js\jquery-3.4.1.min.js
+wwwroot\js\order.js
 wwwroot\js\products.js
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cMbxMydoxO4=",
+  "dgSpecHash": "jZqQMqKZ+x8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI E\\TestLayer\\TestLayer.csproj",
+  "projectFilePath": "C:\\Users\\hpnew\\Desktop\\School\\Programming\\Codes\\Software Development\\GiftShop\\WebAPI\\TestLayer\\TestLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpnew\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\hpnew\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.5\\microsoft.aspnetcore.cryptography.internal.9.0.5.nupkg.sha512",
